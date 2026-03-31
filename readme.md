@@ -2,7 +2,7 @@
 
 Activities: Humanoid (https://www.notion.so/Humanoid-2fcc63c739d2801a8a1ce0ea844ae3a8?pvs=21)
 
-# [ROS2 Humble] 외부 URDF 파일 Rviz2 시각화 및 디버깅 가이드 (XBot-L 사례)
+# [ROS2 Humble] 외부 URDF 파일 Rviz2 시각화 및 디버깅 가이드
 
 ## 🎯 개요
 
@@ -40,10 +40,6 @@ source /opt/ros/humble/setup.bash
 
 ```bash
 ros2 launch urdf_tutorial display.launch.py model:= ${경로}
-```
-
-```bash
-ros2 launch urdf_tutorial display.launch.py model:=/home/jae/urdf_study/src/XBot_URDF/urdf/XBot-L.urdf
 ```
 
 - **실행 결과:** Rviz2 창(3D 뷰어)과 Joint State Publisher GUI 창(관절 제어 슬라이더)이 동시에 열리며 로봇 모델을 시각적으로 확인하고 움직여볼 수 있다.
