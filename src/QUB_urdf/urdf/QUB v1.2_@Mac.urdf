@@ -75,10 +75,11 @@
     </visual>
     <collision>
       <origin
-        xyz="0 0 0.0275"
+        xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <box size="0.140 0.1194 0.175" />
+        <mesh
+          filename="file:///Users/jae/Library/Mobile Documents/com~apple~CloudDocs/KUDOS/Humanoid/8. URDF 작업/URDF_study/src/QUB_urdf/meshes/collision/pelvis_link.STL" />
       </geometry>
     </collision>
   </link>
