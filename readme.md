@@ -1,5 +1,30 @@
-# URDF Rviz2 시각화
 
+# QUB_URDF
+
+> 🗄️ **Status**: Archived (frozen on 2026-05-12)
+> 
+> KUDOS 휴머노이드 **QUB v1.2**의 URDF 작업 및 ROS2 Rviz2 시각화 학습 기록입니다.
+> SolidWorks에서 export한 URDF를 본격적인 시뮬레이터에 올리기 전, 
+> Rviz2로 빠르게 형상과 TF 트리를 검증하는 워크플로우를 정리했습니다.
+> 
+> - QUB URDF의 최신 버전: [QUB_RL_v2](https://github.com/jaebin401/QUB_RL_v2)의 resource/robot/QUB 레포에서 관리
+
+---
+
+## ⚠️ Note on Removed Third-Party Content
+
+본 레포의 이전 commit에는 학습 목적으로 RobotEra의 **XBot URDF**(humanoid-gym 레포 출처)가 
+포함되어 있었습니다. 적절한 출처 표시 및 라이선스 명시 없이 포함되었음을 인지하고,
+[commit hash]에서 제거하였습니다.
+
+- 원본 출처: [roboterax/humanoid-gym](https://github.com/roboterax/humanoid-gym)
+- 라이선스: 원본 레포의 LICENSE 파일 참조
+
+본 레포에 남아있는 모든 URDF 및 코드는 본인이 직접 작성하거나 적절한 출처가 명시된 자료입니다.
+
+---
+
+# URDF Rviz2 시각화
 
 ## [ROS2 Humble] 외부 URDF 파일 Rviz2 시각화 및 디버깅 가이드
 
