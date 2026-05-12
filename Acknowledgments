@@ -1,0 +1,8 @@
+# Acknowledgments
+
+본 레포의 ROS2 Rviz2 시각화 가이드는 다음 오픈소스 자료를 참고하여 작성되었습니다.
+
+- [ROS2 urdf_tutorial](https://github.com/ros/urdf_tutorial) — Rviz2 디스플레이 launch 파일 참조
+- [roboterax/humanoid-gym](https://github.com/roboterax/humanoid-gym) — XBot URDF (이전 commit에서 학습용으로 포함되었으나 적절한 표시 없이 포함되어 제거됨)
+
+본 레포에 현재 포함된 URDF는 본인이 SolidWorks에서 export하여 작성한 자료입니다.
